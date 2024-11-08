@@ -1,0 +1,181 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.bg-blue
+{
+    background-color: #03346E;
+}
+.blue{
+
+    color: #03346E;
+}
+.bg-brown
+{
+    background-color: #B17457;
+}
+.brown{
+    color: #B17457;
+}
+.bg-white
+{
+    background-color: white;
+}
+.white{
+    color: white;
+}
+.bg-smoke
+{
+    background-color: whitesmoke;
+}
+.smoke{
+    color: whitesmoke;
+}
+.img-Air
+{
+    background-image:url('https://i.ibb.co/9hmNwQF/AUCL.jpg');
+   
+    background-repeat: no-repeat;
+    width: 100%;
+   background-attachment: fixed;
+    background-size: cover;
+}
+.flex
+{
+    display: flex;
+   justify-content: center;
+   
+}
+.font-headings
+{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+.main
+{
+    font-family:'Times New Roman', Times, serif;
+    font-weight:800;
+    font-size: 50px;
+}
+.sub-heading
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+  /* Blur effect on hover */
+  .image-hover::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('Academic1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    transition: filter 0.2s ease-in-out; /* Smooth transition */
+    /* Position below the text */
+  }
+
+  /* Text container */
+  .image-hover .hover-text {
+    position: relative; /* To keep above the blurred background */
+    z-index: 2; /* Higher than the blurred background */
+    color: white;
+    
+   
+     /* Semi-transparent background */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out; /* Smooth appearance */
+  }
+
+  /* Show text on hover */
+  .image-hover:hover .hover-text {
+    opacity: 1;
+  }
+  
+  .image-hover:hover::before {
+    filter: blur(5px);
+  }
+  .hover-img{
+    z-index: 2;
+    opacity: 0;
+    border-radius: 50%;
+    transition: opacity 0.2s ease-in-out;
+    aspect-ratio: 1/1;
+    width: 20%;
+    object-fit: cover;
+  }
+  .image-hover:hover .hover-img {
+    opacity: 1;
+  }
+
+
+  
+
+  .image-hover2::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('hover\ img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    transition: filter 0.2s ease-in-out; /* Smooth transition */
+    /* Position below the text */
+  }
+
+  /* Text container */
+  .image-hover2 .hover-text {
+    position: relative; /* To keep above the blurred background */
+    z-index: 2; /* Higher than the blurred background */
+    color: white;
+    
+   
+    background-color: ; /* Semi-transparent background */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out; /* Smooth appearance */
+  }
+
+  /* Show text on hover */
+  .image-hover2:hover .hover-text {
+    opacity: 1;
+  }
+  
+  .image-hover2:hover::before {
+    filter: blur(5px);
+  }
+  .hover-img{
+    z-index: 2;
+    opacity: 0;
+    border-radius: 50%;
+    transition: opacity 0.2s ease-in-out;
+    aspect-ratio: 1/1;
+    width: 20%;
+    object-fit: cover;
+  }
+  .image-hover2:hover .hover-img {
+    opacity: 1;
+  }
+.link-box div:hover
+{
+text-decoration: underline 2px ;
+cursor: pointer;
+
+}
+
+
+  
